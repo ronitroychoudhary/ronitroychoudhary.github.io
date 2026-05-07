@@ -20,7 +20,7 @@ feature_row:
   - title: "Current Direction"
     excerpt: "Developing ML models for Hi-C contact map prediction from RNA-seq and integrative analysis of cancer cohorts."
 feature_row2:
-  - image_path: /assets/images/ronit-profile.jpeg
+  - image_path: https://avatars.githubusercontent.com/u/251346933?v=4
     alt: "Ronit Roy Choudhary"
     title: "About Me"
     excerpt: "I enjoy turning high-dimensional biological data into interpretable models that can guide translational insights."
