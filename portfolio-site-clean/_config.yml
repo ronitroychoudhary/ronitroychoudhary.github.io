@@ -1,0 +1,57 @@
+title: "Ronit Roy Choudhary"
+name: "Ronit Roy Choudhary"
+description: "Computational Biologist | Multi-omics | Machine Learning"
+url: "https://ronitroychoudhary.github.io"
+baseurl: ""
+repository: "ronitroychoudhary/ronitroychoudhary.github.io"
+locale: "en-US"
+timezone: "Asia/Kolkata"
+
+remote_theme: "mmistakes/minimal-mistakes@4.27.1"
+minimal_mistakes_skin: "air"
+
+plugins:
+  - jekyll-include-cache
+
+markdown: kramdown
+permalink: /:categories/:title/
+
+include:
+  - _pages
+
+author:
+  name: "Ronit Roy Choudhary"
+  avatar: "/assets/images/ronit-profile.jpeg"
+  bio: "Computational biologist working on RNA-seq, Hi-C analysis, and machine learning for cancer and multi-omics research."
+  location: "India"
+  links:
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/ronitroychoudhary"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/ronit-roy-choudhary-742126232/"
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope"
+      url: "mailto:ronitroychoudhary@gmail.com"
+    - label: "Research Link"
+      icon: "fas fa-fw fa-globe"
+      url: "https://www.copm.polsl.pl/"
+
+footer:
+  links:
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/ronitroychoudhary"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/ronit-roy-choudhary-742126232/"
+
+defaults:
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: single
+      author_profile: true
+      toc: false

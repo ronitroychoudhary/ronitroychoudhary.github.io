@@ -1,0 +1,20 @@
+---
+# Only the main Sass file needs front matter.
+---
+@charset "utf-8";
+
+$link-color: #0f4c81;
+$masthead-link-color: #1f2d3d;
+$footer-background-color: #0f1722;
+$primary-color: #0f4c81;
+
+@import "minimal-mistakes/skins/air";
+@import "minimal-mistakes";
+
+.page__hero--overlay {
+  min-height: 420px;
+}
+
+.archive__item-teaser img {
+  border-radius: 8px;
+}
