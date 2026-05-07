@@ -21,7 +21,7 @@ include:
 
 author:
   name: "Ronit Roy Choudhary"
-  avatar: "/assets/images/ronit-profile.jpeg"
+  avatar: "https://avatars.githubusercontent.com/u/251346933?v=4"
   bio: "Computational biologist working on RNA-seq, Hi-C analysis, and machine learning for cancer and multi-omics research."
   location: "India"
   links:
