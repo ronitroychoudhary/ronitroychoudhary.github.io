@@ -6,6 +6,7 @@
   <title>Ronit Roy Choudhary | Computational Biologist</title>
   <meta name="description" content="Portfolio of Ronit Roy Choudhary, specializing in Computational Biology, Multi-omics, and Machine Learning for cancer research.">
   <link rel="stylesheet" href="style.css">
+  <link rel="icon" type="image/jpeg" href="git_pic.jpeg">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 <body data-theme="light">
@@ -15,88 +16,142 @@
       <div class="logo">RONIT.RC</div>
       <ul class="nav-links">
         <li><a href="#about">About</a></li>
-        <li><a href="#research">Research</a></li>
+        <li><a href="#research">Expertise</a></li>
         <li><a href="#projects">Projects</a></li>
         <li><a href="#contact">Contact</a></li>
       </ul>
-      <button id="theme-toggle" class="theme-toggle" aria-label="Toggle Theme">
-        <i class="fas fa-moon"></i>
-      </button>
+      <div class="nav-right">
+        <button id="theme-toggle" class="theme-toggle" aria-label="Toggle Theme">
+          <i class="fas fa-moon"></i>
+        </button>
+      </div>
     </div>
   </nav>
 
   <header class="hero">
     <div class="container hero-content">
-      <h1>Ronit Roy Choudhary</h1>
-      <p>I build data-driven methods for RNA-seq, Hi-C, and multi-omics integration with a focus on cancer biology and biomarker discovery.</p>
-      <div style="display: flex; gap: 1rem; justify-content: center;">
-        <a href="Resume.pdf" class="btn btn-primary" target="_blank">Download CV</a>
-        <a href="https://github.com/ronitroychoudhary" class="btn" style="border: 1px solid var(--accent-color);">View GitHub</a>
+      <div class="hero-text reveal">
+        <div class="hero-badge">
+          <span class="pulse"></span> Open for Research Opportunities
+        </div>
+        <span class="hero-subtitle">Computational Biologist & ML Researcher</span>
+        <h1>Hi, I'm <span class="gradient">Ronit Roy Choudhary</span></h1>
+        <p class="hero-desc">I build data-driven methods for RNA-seq, Hi-C, and multi-omics integration with a focus on cancer biology and biomarker discovery.</p>
+        <div style="display: flex; gap: 1.25rem;">
+          <a href="Resume.pdf" class="btn btn-primary" target="_blank">Download CV</a>
+          <a href="https://github.com/ronitroychoudhary" class="btn btn-outline" target="_blank">View GitHub</a>
+        </div>
+      </div>
+      <div class="hero-visual reveal">
+        <div class="profile-frame">
+          <img src="git_pic.jpeg" alt="Ronit Roy Choudhary">
+        </div>
       </div>
     </div>
   </header>
 
   <section id="about" class="container">
-    <div class="glass-card">
-      <h2 class="section-title" style="text-align: left; margin-bottom: 2rem;">About Me</h2>
-      <p>I am a computational biology researcher focused on integrating transcriptomics, chromatin interaction data, and machine learning to answer clinically relevant questions.</p>
-      <p style="margin-top: 1rem;">My work sits at the intersection of <strong>bioinformatics, machine learning, and translational oncology</strong>. I focus on converting complex multi-omics datasets into interpretable models and decision-ready biological insights.</p>
+    <div class="data-card reveal">
+      <div class="section-header" style="text-align: left; margin-bottom: 2rem;">
+        <span class="tag">Profile</span>
+        <h2>About Me</h2>
+      </div>
+      <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 3rem;">
+        <div>
+          <p style="font-size: 1.1rem; color: var(--text-muted);">I am a computational biology researcher focused on integrating transcriptomics, chromatin interaction data, and machine learning to answer clinically relevant questions.</p>
+          <p style="margin-top: 1.5rem; color: var(--text-muted);">My work sits at the intersection of <strong>bioinformatics, machine learning, and translational oncology</strong>. I focus on converting complex multi-omics datasets into interpretable models and decision-ready biological insights.</p>
+        </div>
+        <div class="data-card" style="background: var(--bg-alt); padding: 1.5rem;">
+          <h4 style="margin-bottom: 1rem; color: var(--accent);">Impact Snapshot</h4>
+          <ul style="list-style: none; display: grid; gap: 1rem; font-size: 0.9rem;">
+            <li><strong>3+ Years</strong> Research Experience</li>
+            <li><strong>10+</strong> Analysis Pipelines Built</li>
+            <li><strong>Multi-omics</strong> Expert Integration</li>
+          </ul>
+        </div>
+      </div>
     </div>
   </section>
 
   <section id="research" class="container">
-    <h2 class="section-title">Research & Expertise</h2>
+    <div class="section-header reveal">
+      <span class="tag">Expertise</span>
+      <h2>Research & Technical Focus</h2>
+    </div>
     <div class="grid">
-      <div class="glass-card">
-        <h3>Research Focus</h3>
-        <p>Machine learning pipelines for multi-omics disease profiling, transcriptomics, and network-based biological interpretation.</p>
+      <div class="data-card reveal">
+        <i class="fas fa-microscope" style="font-size: 2rem; color: var(--accent); margin-bottom: 1.5rem;"></i>
+        <h3>Research Direction</h3>
+        <p>Developing ML models for Hi-C contact map prediction from RNA-seq and integrative analysis of cancer cohorts.</p>
+        <div class="tags">
+          <span class="tag-pill">Cancer Biology</span>
+          <span class="tag-pill">Biomarkers</span>
+          <span class="tag-pill">Hi-C</span>
+        </div>
       </div>
-      <div class="glass-card">
+      <div class="data-card reveal">
+        <i class="fas fa-code-branch" style="font-size: 2rem; color: var(--emerald); margin-bottom: 1.5rem;"></i>
         <h3>Technical Strengths</h3>
         <p>Python, R, Docker, TensorFlow, PyTorch, and reproducible bioinformatics workflows from preprocessing to modeling.</p>
+        <div class="tags">
+          <span class="tag-pill">Python</span>
+          <span class="tag-pill">PyTorch</span>
+          <span class="tag-pill">Docker</span>
+        </div>
       </div>
-      <div class="glass-card">
-        <h3>Current Direction</h3>
-        <p>Developing ML models for Hi-C contact map prediction from RNA-seq and integrative analysis of cancer cohorts.</p>
+      <div class="data-card reveal">
+        <i class="fas fa-network-wired" style="font-size: 2rem; color: var(--indigo); margin-bottom: 1.5rem;"></i>
+        <h3>Multi-omics</h3>
+        <p>Machine learning pipelines for multi-omics disease profiling, transcriptomics, and network-based interpretation.</p>
+        <div class="tags">
+          <span class="tag-pill">Transcriptomics</span>
+          <span class="tag-pill">Network Analysis</span>
+        </div>
       </div>
     </div>
   </section>
 
   <section id="projects" class="container">
-    <h2 class="section-title">Featured Projects</h2>
+    <div class="section-header reveal">
+      <span class="tag">Portfolio</span>
+      <h2>Featured Projects</h2>
+    </div>
     <div class="grid">
-      <div class="glass-card project-card">
+      <div class="data-card reveal">
         <h3>gene-expression-linear-regression2</h3>
         <p>Gene-expression modeling experiments with regression-based analysis pipelines.</p>
-        <a href="https://github.com/ronitroychoudhary/gene-expression-linear-regression2" class="project-link" target="_blank">View Project <i class="fas fa-external-link-alt"></i></a>
+        <a href="https://github.com/ronitroychoudhary/gene-expression-linear-regression2" class="project-link" target="_blank">Analyze Repo <i class="fas fa-arrow-right"></i></a>
       </div>
-      <div class="glass-card project-card">
+      <div class="data-card reveal">
         <h3>mleprae-ngs-pipeline</h3>
         <p>NGS pipeline work tailored for microbial genomics and reproducible analysis.</p>
-        <a href="https://github.com/ronitroychoudhary/mleprae-ngs-pipeline" class="project-link" target="_blank">View Project <i class="fas fa-external-link-alt"></i></a>
+        <a href="https://github.com/ronitroychoudhary/mleprae-ngs-pipeline" class="project-link" target="_blank">Analyze Repo <i class="fas fa-arrow-right"></i></a>
       </div>
-      <div class="glass-card project-card">
+      <div class="data-card reveal">
         <h3>RNAseq_pipeline</h3>
         <p>RNA-seq analysis workflow for streamlined transcriptomic processing and downstream interpretation.</p>
-        <a href="https://github.com/ronitroychoudhary/RNAseq_pipeline" class="project-link" target="_blank">View Project <i class="fas fa-external-link-alt"></i></a>
+        <a href="https://github.com/ronitroychoudhary/RNAseq_pipeline" class="project-link" target="_blank">Analyze Repo <i class="fas fa-arrow-right"></i></a>
       </div>
-      <div class="glass-card project-card">
+      <div class="data-card reveal">
         <h3>hicverse-m2pp</h3>
         <p>Ongoing work toward robust modeling and tooling around Hi-C related computational tasks.</p>
-        <a href="https://github.com/ronitroychoudhary/hicverse-m2pp" class="project-link" target="_blank">View Project <i class="fas fa-external-link-alt"></i></a>
+        <a href="https://github.com/ronitroychoudhary/hicverse-m2pp" class="project-link" target="_blank">Analyze Repo <i class="fas fa-arrow-right"></i></a>
       </div>
     </div>
   </section>
 
   <footer id="contact">
-    <div class="container">
-      <h2 class="section-title">Get In Touch</h2>
-      <div class="social-links">
+    <div class="container footer-content">
+      <div class="section-header reveal">
+        <span class="tag">Connect</span>
+        <h2>Get In Touch</h2>
+      </div>
+      <div class="social-links reveal">
         <a href="https://github.com/ronitroychoudhary" target="_blank"><i class="fab fa-github"></i></a>
         <a href="https://www.linkedin.com/in/ronit-roy-choudhary-742126232/" target="_blank"><i class="fab fa-linkedin"></i></a>
         <a href="mailto:ronitroychoudhary@gmail.com"><i class="fas fa-envelope"></i></a>
       </div>
-      <p>&copy; 2026 Ronit Roy Choudhary. Built with Modern UI & Glassmorphism.</p>
+      <p class="copyright reveal">&copy; 2026 Ronit Roy Choudhary. Built with Scientific Precision & Modern UI.</p>
     </div>
   </footer>
 
